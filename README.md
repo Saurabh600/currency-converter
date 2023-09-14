@@ -12,6 +12,11 @@ more images [here](./images)
 
 - `git clone https://github.com/Saurabh600/currency-converter`
 - `yarn install`
+- `yarn add --dev @electron-forge/cli`
+- `npx electron-forge import`
+
+## Test
+
 - make a .env file
 
 ```sh
@@ -22,9 +27,13 @@ APP_MODE=development
 CURRENCY_API_URL=
 ```
 
-- run `yarn start`
+- `yarn start`
 
-# How to Use
+## Build
+
+- `yarn make`
+
+## How to Use
 
 - **From:** Choose any currency format from top box
 - enter the amount
