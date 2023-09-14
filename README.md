@@ -6,7 +6,7 @@ Desktop Application built-in Electron.js for converting one currency to another
 
 ![Home Page](./images/image-1.png)
 
-more images [here](https://github.com/Saurabh600/currency-converter/images)
+more images [here](./images)
 
 ## Setup
 
