@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; connect-src https://v6.exchangerate-api.com/"
+    />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script type="module" src="./script/main.js" defer></script>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <h1 class="title">Currency Converter App</h1>
+      <form id="cc-form" class="cc-form">
+        <!-- <div class="cc-group"></div> -->
+        <div class="cc-group">
+          <select name="ct-left" id="currency-type-left"></select>
+          <input
+            type="number"
+            name="ct-value-left"
+            id="ct-value-left"
+            required
+          />
+        </div>
+        <div class="cc-group">
+          <select name="ct-right" id="currency-type-right"></select>
+          <input
+            type="number"
+            name="ct-value-right"
+            id="ct-value-right"
+            readonly
+          />
+        </div>
+        <button type="submit" class="btn">Convert</button>
+      </form>
+    </div>
+  </body>
+</html>
